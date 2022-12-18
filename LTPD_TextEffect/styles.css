@@ -110,6 +110,17 @@ h1 > .magic > .magic-text {
     white-space: nowrap;
 }
 
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 2em;
+}
+
+#LTPD-mark {
+    max-width: 5vw;
+}
+
 /* Mobile styles */
 @media only screen and (max-width: 600px) {
     h1 {
@@ -123,5 +134,9 @@ h1 > .magic > .magic-text {
         padding-left: 10vw;
         padding-right: 10vw;
         text-align: center;
+    }
+
+    #LTPD-mark {
+        max-width: 10vw;
     }
   }
