@@ -1,5 +1,7 @@
 :root {
-    --purple: rgb(39, 49, 51);
+
+    --purple: rgb(13, 46, 53);
+    /* --purple: rgb(39, 49, 51); */
     --violet: rgb(125, 179, 179);
     --pink: rgb(30, 153, 153);
 }
@@ -35,7 +37,7 @@
 }
 
 body {
-    background-color: rgb(15, 19, 20);
+    background-color: rgb(10, 10, 10);
     /* background-color: rgb(39, 49, 51); */
     display: grid;
     height: 100vh;
@@ -89,7 +91,7 @@ h1 > .magic > .magic-star {
 h1 > .magic > .magic-star > svg {
     animation: rotate 1000ms linear infinite;
     display: block;
-    opacity: 0.85;
+    opacity: 0.7;
   }
 
 h1 > .magic > .magic-star > svg > path {
