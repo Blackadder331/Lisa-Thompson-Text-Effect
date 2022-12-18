@@ -1,7 +1,7 @@
 :root {
-    --purple: rgb(123, 31, 162);
-    --violet: rgb(103, 58, 183);
-    --pink: rgb(244,143,177);
+    --purple: rgb(39, 49, 51);
+    --violet: rgb(125, 179, 179);
+    --pink: rgb(30, 153, 153);
 }
 
 @keyframes background-pan {
@@ -35,7 +35,8 @@
 }
 
 body {
-    background-color: rgb(10, 10, 10);
+    background-color: rgb(15, 19, 20);
+    /* background-color: rgb(39, 49, 51); */
     display: grid;
     height: 100vh;
     margin: 0px;
@@ -44,7 +45,7 @@ body {
 }
 
 h1 {
-    color: white;
+    color: rgb(249, 249, 249);
     font-family: "Rubik", sans-serif;
     font-size: clamp(2em, 2vw, 4em);
     font-weight: 400;
@@ -57,7 +58,7 @@ h1 {
 }
 
 small {
-    color: white;
+    color: rgb(249, 249, 249);
     font-family: "Rubik", sans-serif;
     font-weight: 100;
     margin: 0px;
@@ -88,7 +89,7 @@ h1 > .magic > .magic-star {
 h1 > .magic > .magic-star > svg {
     animation: rotate 1000ms linear infinite;
     display: block;
-    opacity: 0.7;
+    opacity: 0.85;
   }
 
 h1 > .magic > .magic-star > svg > path {
